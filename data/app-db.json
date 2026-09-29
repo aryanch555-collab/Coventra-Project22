@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "uid": "mgr_001",
+      "name": "Manager",
+      "email": "manager@callflow.internal",
+      "password": "ManagerPass2026!",
+      "role": "manager",
+      "createdAt": "2026-09-29T10:00:00.000Z"
+    },
+    {
+      "uid": "agt_001",
+      "name": "Mohammad Baqir",
+      "email": "mohammad.baqir@callflow.internal",
+      "password": "BaqirPass2026!",
+      "role": "agent",
+      "createdAt": "2026-09-29T10:00:00.000Z"
+    },
+    {
+      "uid": "agt_002",
+      "name": "Malik Hammad Haider",
+      "email": "malik.hammad@callflow.internal",
+      "password": "MalikPass2026!",
+      "role": "agent",
+      "createdAt": "2026-09-29T10:00:00.000Z"
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead_test_001",
+      "datasetId": "ds_001",
+      "datasetName": "Production Tech Outbound",
+      "fullName": "Jane Doe",
+      "phoneNumber": "+1 (555) 345-6789",
+      "company": "Acme Corp",
+      "status": "completed",
+      "createdAt": "2026-09-29T10:11:25.232Z",
+      "claimedByUid": "agt_001",
+      "claimedByName": "Mohammad Baqir",
+      "claimedAt": "2026-09-29T10:11:25.242Z",
+      "outcome": "Interested / Lead Qualified",
+      "outcomeNotes": "Qualified prospect, interested in outbound calling solution.",
+      "processedAt": "2026-09-29T10:42:48.563Z",
+      "processedByUid": "agt_001",
+      "processedByName": "Mohammad Baqir"
+    },
+    {
+      "id": "test_lead_101",
+      "datasetId": "ds_test",
+      "datasetName": "Production Campaign",
+      "datasetType": "production",
+      "fullName": "Alice Walker",
+      "phoneNumber": "+1 (555) 111-2222",
+      "status": "unassigned",
+      "createdAt": "2026-09-29T10:17:19.000Z"
+    },
+    {
+      "id": "test_lead_102",
+      "datasetId": "ds_test",
+      "datasetName": "Production Campaign",
+      "datasetType": "production",
+      "fullName": "Bob Johnson",
+      "phoneNumber": "+1 (555) 333-4444",
+      "status": "unassigned",
+      "createdAt": "2026-09-29T10:17:19.000Z"
+    }
+  ]
+}
